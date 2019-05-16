@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo|Lato|Noto+Sans+JP|Oswald|Roboto+Mono|Roboto+Slab|Ubuntu');
+
+#ab{
+    background:#f5d9d5;
+}
+
+#car{
+    font-family: 'Ubuntu', sans-serif;
+    color: aqua;
+    font-size: 1.5rem;
+}
+.ab{
+    font-size: 1.5rem; 
+}
+.text-white{
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Heebo', sans-serif;
+}
