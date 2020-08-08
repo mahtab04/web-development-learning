@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Secret Msg</title>
+    <style>
+      *,
+      .btn,
+      input,
+      h1 {
+        font-family: "Noto Sans JP", sans-serif;
+      }
+      .row {
+        margin-top: 25vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col s8 offset-s2">
+        <div id="message-show" class="card-panel hide">
+          <h1></h1>
+          <div>
+            <a href="./index.html">Create your own secret msg</a>
+          </div>
+        </div>
+        <div id="message-form" class="card-panel">
+          <form>
+            <label>Enter a Secret Message</label>
+            <input type="text" id="msg-input" />
+            <button class="btn">Create</button>
+          </form>
+        </div>
+        <div id="link-form" class="card-panel hide">
+          <div>
+            Share this link
+            <input id="link-input" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
